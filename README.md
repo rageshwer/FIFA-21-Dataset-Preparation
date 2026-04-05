@@ -148,3 +148,7 @@ Evaluation Metric
 Mean Absolute Error (MAE)
 The model was successfully trained on the cleaned dataset, demonstrating that preprocessing prepared the data effectively for machine learning tasks
 The MAE score = 0.62
+The R_Sq score = 0.92
+The features have very high VIF scores showing multicollinearity. This is because the
+feature values are highly linked with each other and can be easily derived. For the sake
+of prediction these features can be kept.
